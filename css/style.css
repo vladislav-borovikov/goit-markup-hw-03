@@ -37,8 +37,6 @@ img {
 body {
 font-family: Roboto,  sans-serif;
 font-weight: 400 ;
-
-padding-left: 15px;
 }
 
 
@@ -48,15 +46,18 @@ padding-left: 15px;
     border: 0px;
 }
 
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
 /* === header ====*/
 .header-section {
     display: flex;
     align-items: center;
     padding-top: 25px;
     padding-bottom: 25px;
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    
     /*justify-content: space-between;*/
     
 
@@ -199,7 +200,6 @@ padding-left: 15px;
 }
 
 
-}
 
 .hero-batton:focus,
 .hero-batton:hover {
@@ -303,18 +303,17 @@ background: #188CE8;
     padding-right: 215px;*/
     padding-top: 50px;
     padding-bottom: 94px;
-     margin-left: -30px;
+    margin-left: -30px;
     margin-top: -30px;
 }
 
 
 .team-list-paragraph {
-    padding-bottom: 30px;
     border: 1px solid #FFFFFF;
     border-radius: 4px;
     margin-left: 30px;
     margin-top: 30px;
- 
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2); 
 }
 .team{
     font-style: normal;
@@ -335,6 +334,7 @@ background: #188CE8;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--names-links-color);
+    margin-bottom: 10px;
 }
 
 .team-position {
@@ -349,60 +349,73 @@ background: #188CE8;
 
 .team-discription{
     padding-top: 30px;
+    padding-bottom: 30px;
    
 }
 
 /*=====footer=====*/
 
+.footer{
+    padding: 60px auto 60px 215px ;
+}
+
 .adress-list{
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 .adress-on-map {
+    display: inline-block;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     /*color: #FFFFFF*/
+    margin-top: 10px;
 }
 
 .mail-footer {
+    display: inline-block;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     /*color: rgba(255, 255, 255, 0.6)*/
+    margin-top: 10px;
 }
 
 .namber-footer{
+    display: inline-block;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-
     /*color: rgba(255, 255, 255, 0.6);*/
+    margin-top: 10px;
 }
 
 .footer-section {
     padding-top: 60px;
     padding-bottom: 60px;
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    
 }
 
 /*======portfolio======*/
+.portfolio-filtr-section{
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .header-portfolio {
     border-bottom: 1px solid #ECECEC;
 }
 
 .portfolio-list-section {
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+ 
     
 
 }
@@ -413,7 +426,6 @@ background: #188CE8;
     width: 612px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 94px;
     margin-bottom: 50px;
 
 
